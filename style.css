@@ -4,3 +4,31 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+#header{
+	display: flex;
+	justify-content: flex-end;
+	border: solid #E1E3DF 1px
+}
+.headerText, #headerButton, #cart{
+	font-size: 14px;
+	color: #4B92B5;
+	margin: 20px;
+}
+#headerButton{
+	height: 34px;
+	width: 64px;
+	border: solid #4B92B5 1px;
+	border-radius: 5px;
+	background-color: white;
+}
+#cart{
+	height: 38px;
+	width: 50px;
+	background-image: url("assets/cart.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	border: solid #E6E6E6 0px;
+	border-left-width: 1px;
+	background-size: 25px 25px;
+}
