@@ -203,13 +203,29 @@ select{
 #imageBlockHeader{
 	display: flex;
 	justify-content:space-between;
+	margin: 0;
 }
 #imageBlock{
-	float: left;
 	color: #555855;
 	margin-top: 30px;
-	width: 80%;
-	padding-right: 40px
+	width: 100%;
+	padding-right: 40px;
+}
+.itemBox{
+	width: 264px;
+	height: 232px;
+	background-color: red;
+	float: left;
+	margin-top: 100px;
+}
+.imageBox{
+	width:264px;
+	height:212px;
+	background-color: green;
+}
+#itemBox{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 
