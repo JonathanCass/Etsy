@@ -90,3 +90,15 @@ html {
 	top: 54px;
 	left: -46px;
 }
+#categories{
+	color: #777777;
+	border: solid #E1E3DF 1px;
+	height: 44px;
+	background-color: white;
+	padding-top: 10px;
+}
+#categories span{
+	font-size: 14px;
+	margin-left: 28px;
+
+}
