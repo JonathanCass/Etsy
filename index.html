@@ -63,6 +63,38 @@
 			<li><input type="radio">Vintage</li>
 			<li id="listBorder"></li>
 		</ul>
+		<ul id="price">Price ($)
+			<li><input type="radio" checked>Any price</li>
+			<li><input type="radio">Under $25</li>
+			<li><input type="radio">$25 to $50</li>
+			<li><input type="radio">$50 to $100</li>
+			<li><input type="radio">Over $100</li>
+			<li><input type="radio">Custom</li>
+			<li><input type="text" id="low" placeholder="Low"><span id="toSpan"> to </span><input type="text" id="high" placeholder="High"><button type="button" id="locEnter"></button></li>
+			<li id="listBorder"></li>
+		</ul>
+		<ul id="colors">Filter by color<br>
+			<li id="redB" class="colorBox"></li>
+			<li id="orangeB" class="colorBox"></li>
+			<li id="yellowB" class="colorBox"></li>
+			<li id="greenB" class="colorBox"></li>
+			<li id="blueB" class="colorBox"></li>
+			<li id="purpleB" class="colorBox"></li>
+			<li id="blackB" class="colorBox"></li>
+			<li id="whiteB" class="colorBox"></li>
+			<li id="listBorder"></li>
+			</ul>
+		<ul id="orderOptions">Ordering options
+			<li><input type="checkbox">Accepts Etsy gift cards</li>
+			<li><input type="checkbox">Customizable</li>
+			<li id="listBorder"></li>
+		</ul>
+		<ul id="shipTo">Ship to
+			<li><select>
+				<option value="usa">United States</option>
+				</select>
+			</li>
+		</ul>
 	</div>
 	<script
 	src="https://code.jquery.com/jquery-3.1.1.min.js"

@@ -110,7 +110,7 @@ html {
 	border: solid #CFCBC8 1px;
 	padding: 10px;
 }
-#allCat, #shopLocation, #itemType{
+#allCat, #shopLocation, #itemType, #price, #colors, #orderOptions, #shipTo{
 	padding:0;
 	margin:0;
 }
@@ -151,6 +151,75 @@ a{
 	height:38px;
 	width: 38px;
 }
-input[type=radio]{
+input[type=radio], input[type=checkbox]{
 	margin-right: 8px;
 }
+#shopLocation #listBorder{
+	margin-top:0;
+	margin-bottom: 20px;
+}
+#low, #high{
+	padding-left: 10px;
+	height: 38px;
+	width: 58px;
+	position: relative;
+	top: -11px;
+	right: -10px;
+}
+#high{
+	margin-right: 16px;
+}
+#toSpan{
+	position: relative;
+	top: -11px;
+	right: -10px;
+	margin: 4px;
+}
+.colorBox{
+	height: 22px;
+	width: 22px;
+	display: inline-block;
+	background-color: red;
+	margin: 10px 1px 0px 0px;
+	border: solid #CFCBC8 1px;
+	border-radius: 4px;
+}
+
+#redB{background-color: red;}
+#orangeB{background-color: orange;}
+#yellowB{background-color: yellow;}
+#greenB{background-color: green;}
+#blueB{background-color: blue;}
+#purpleB{background-color: purple;}
+#blackB{background-color: black;}
+#whiteB{background-color: white;}
+
+select{
+	height: 38px;
+	width: 212px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
