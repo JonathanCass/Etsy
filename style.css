@@ -1,6 +1,7 @@
 html {
 	box-sizing: border-box;
 	background-color: #FAF9F5;
+	font-size: 14px;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -32,7 +33,6 @@ html {
 	margin-left: 32px;
 }
 .headerText, #headerButton, #cart{
-	font-size: 14px;
 	color: #4B92B5;
 	margin: 20px 10px;
 }
@@ -60,7 +60,6 @@ html {
 	height: 34px;
 	width: 76px;
 	color: white;
-	font-size: 14px;
 	background-color: #34A8C4;
 	border: 0;
 	overflow: hidden;
@@ -84,7 +83,7 @@ html {
 	background-size: 25px 25px;
 }
 #cartText{
-	font-size: 13px;
+	font-size: 12px;
 	color: grey;
 	position: relative;
 	top: 54px;
@@ -98,7 +97,60 @@ html {
 	padding-top: 10px;
 }
 #categories span{
-	font-size: 14px;
 	margin-left: 28px;
 
+}
+#sidebar{
+	width: 236px;
+	background-color: white;
+	padding: 0px;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-right: 20px;
+	border: solid #CFCBC8 1px;
+	padding: 10px;
+}
+#allCat, #shopLocation, #itemType{
+	padding:0;
+	margin:0;
+}
+#listBorder{
+	border: solid #CFCBC8 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ul{
+	list-style: none;
+	font-weight: bold;
+	color: #444444;
+}
+li{
+	margin: 8px;
+	font-weight: normal;
+}
+a:hover{
+	color: #444444;
+	text-decoration: underline;
+}
+a:visited{
+	color: #444444;;
+}
+a{
+	text-decoration: none;
+}
+#customLocation{
+	padding-left: 10px;
+	height: 38px;
+	width: 144px;
+	margin-right: 16px;
+	position: relative;
+	top: -11px;
+	right: -10px;
+}
+#locEnter{
+	height:38px;
+	width: 38px;
+}
+input[type=radio]{
+	margin-right: 8px;
 }
