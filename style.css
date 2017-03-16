@@ -1,5 +1,6 @@
 html {
 	box-sizing: border-box;
+	background-color: #FAF9F5;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -7,12 +8,44 @@ html {
 #header{
 	display: flex;
 	justify-content: flex-end;
-	border: solid #E1E3DF 1px
+	border: solid #E1E3DF 1px;
+	background-color: white;
+}
+#Etsy{
+	color: #F56400;
+	font-size: 42px;
+	font-family: serif;
+	margin: auto 0;
 }
 .headerText, #headerButton, #cart{
 	font-size: 14px;
 	color: #4B92B5;
-	margin: 20px;
+	margin: 20px 10px;
+}
+.headerText{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#searchBar{
+	border-radius: 5px;
+	margin: auto 5px;
+	height: 34px;
+	border: solid #C9C5C3 1px;
+	overflow: hidden;
+}
+#searchInput{
+	background-color: #FBFBFA;
+	border: solid #CFCBC8 1px;
+	height: 100%;
+}
+#searchButton{
+	height: 34px;
+	width: 76px;
+	color: white;
+	font-size: 14px;
+	background-color: #34A8C4;
+	border: 0;
+	overflow: hidden;
 }
 #headerButton{
 	height: 34px;
@@ -31,4 +64,11 @@ html {
 	border: solid #E6E6E6 0px;
 	border-left-width: 1px;
 	background-size: 25px 25px;
+}
+#cartText{
+	font-size: 13px;
+	color: grey;
+	position: relative;
+	top: 54px;
+	left: -46px;
 }
