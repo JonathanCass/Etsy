@@ -6,16 +6,30 @@ html {
 	box-sizing: inherit;
 }
 #header{
-	display: flex;
-	justify-content: flex-end;
+	height: 80px;
 	border: solid #E1E3DF 1px;
 	background-color: white;
+}
+#headerLeft{
+	display:flex;
+	justify-content: flex-start;
+	width: 800px;
+	display: inline-block;
+	height: 80px;
+}
+#headerRight{
+	display:flex;
+	justify-content: flex-end;
+	float: right;
+	height: 80px;
 }
 #Etsy{
 	color: #F56400;
 	font-size: 42px;
 	font-family: serif;
-	margin: auto 0;
+	float: left;
+	margin-top: 12px;
+	margin-left: 32px;
 }
 .headerText, #headerButton, #cart{
 	font-size: 14px;
@@ -28,15 +42,19 @@ html {
 }
 #searchBar{
 	border-radius: 5px;
-	margin: auto 5px;
+	margin: 20px;
+	margin-left: 22px;
+	width: 478px;
 	height: 34px;
 	border: solid #C9C5C3 1px;
 	overflow: hidden;
+	float: left;
 }
 #searchInput{
 	background-color: #FBFBFA;
 	border: solid #CFCBC8 1px;
 	height: 100%;
+	width: 400px;
 }
 #searchButton{
 	height: 34px;
