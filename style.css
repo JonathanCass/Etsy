@@ -248,7 +248,7 @@ select{
 	white-space: nowrap; 
 	overflow: scroll; 
 	text-overflow: ellipsis;
-	width: 250px;
+	
 }
 .title{
 	float:left;
@@ -256,18 +256,32 @@ select{
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 5px;
+	width: 250px;
 }
 .maker{
-	float:left;
+	float: left;
 	color: #9A9A9A;
 	margin-bottom: 20px;
 }
 .price{
-	float:right;
+	float: right;
 	color: #78C042;
 	margin-bottom: 20px;
 }
-
+.hoverbar{
+	display: flex;
+	justify-content: flex-end;
+}
+.heart, .hamburger{
+	height: 25px;
+	width: 25px;
+	margin-right: 4px;
+	margin-top: 6px;
+	background-color: #FFFFFF;
+	border: solid #CFCBC8 1px;
+	border-radius: 3px;
+	padding: 4px;
+}
 
 
 
