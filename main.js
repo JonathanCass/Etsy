@@ -4,11 +4,11 @@ $(document).ready(function(){
 		var itemString =""
 
 		for( i = 0 ; i < 24 ; i++ ){
-			itemString += `<div id="itemBox${i}" class="itemBox"></div>`
+			itemString += `<div class="itemBox"><div class = "image" id="imageActual${i}"></div><div class ="imageLabel" id="imageLabelActual${i}"></div></div>`
 		}
 		$("#itemFence").html(itemString)
 		for( i = 0 ; i < 24 ; i++ ){
-			$(`#itemBox${i}`).css("background-image", `url(${data.results[i].Images[0].url_570xN})`)
+			$(`#imageActual${i}`).css("background-image", `url(${data.results[i].Images[0].url_570xN})`)
 		}
 	})
 })

@@ -218,12 +218,26 @@ select{
 }
 .itemBox{
 	width: 264px;
-	height: 232px;
+	height: 262px;
 	margin: 10px 14px 4px 0;
 	border: solid #CFCBC8 1px;
+	overflow: hidden;
+}
+.image{
+	margin: 0;
+	width: 264px;
+	height: 212px;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 100%
+	background-size: 100%;
+}
+.imageLabel{
+	margin: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #FFFFFF;
+	border: solid #CFCBC8 0px;
+	border-bottom: 1px;
 }
 
 
