@@ -222,6 +222,7 @@ select{
 	margin: 10px 14px 4px 0;
 	border: solid #CFCBC8 1px;
 	overflow: hidden;
+	background-color: white;
 }
 .image{
 	margin: 0;
@@ -241,22 +242,29 @@ select{
 	border-bottom: 1px;
 }
 .imageLabel span{
-	margin: 5px 8px 8px 15px;
+	margin-left: 7px;
+	margin-right: 7px;
+	white-space: nowrap; 
+	overflow: scroll; 
+	text-overflow: ellipsis;
+	width: 250px;
 }
 .title{
 float:left;
 color: #444444;
 width: 100%;
+margin-top: 10px;
+margin-bottom: 5px;
 }
 .maker{
 float:left;
 color: #9A9A9A;
-margin-bottom: 12px;
+margin-bottom: 20px;
 }
 .price{
 float:right;
 color: #78C042;
-margin-bottom: 12px;
+margin-bottom: 20px;
 }
 
 

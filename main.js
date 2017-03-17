@@ -4,22 +4,14 @@ $(document).ready(function(){
 		var itemString =""
 
 		for( i = 0 ; i < 24 ; i++ ){
-			itemString += `<div class="itemBox"><div class = "image" id="imageActual${i}"></div><div class ="imageLabel" id="imageLabelActual${i}"><span class ="title">TITLE</span><span class ="maker">MAKER</span><span class ="price">PRICE</span></div></div>`
+			itemString += `<div class="itemBox"><div class = "image" id="imageActual${i}"></div><div class ="imageLabel" id="imageLabelActual${i}"><span class ="title" id="titleActual${i}" >TITLE</span><span class ="maker" id="makerActual${i}" >MAKER</span><span class ="price" id="priceActual${i}">PRICE</span></div></div>`
 		}
 		$("#itemFence").html(itemString)
 		for( i = 0 ; i < 24 ; i++ ){
 			$(`#imageActual${i}`).css("background-image", `url(${data.results[i].Images[0].url_570xN})`)
+			$(`#titleActual${i}`).html(`${data.results[i].title}`)		
+			$(`#makerActual${i}`).html(`${data.results[i].Shop.shop_name}`)
+			$(`#priceActual${i}`).html(`$${data.results[i].price}`)
 		}
 	})
 })
-
-
-/*
-console.log(data.results[0].Images[0].url_570xN)
-
-
-
-
-
-
-*/
