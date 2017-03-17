@@ -33,7 +33,7 @@ html {
 	margin-left: 32px;
 }
 .headerText, #headerButton, #cart{
-	color: #4B92B5;
+	color: #7B7777;
 	margin: 20px 10px;
 }
 .headerText{
@@ -67,7 +67,7 @@ html {
 #headerButton{
 	height: 34px;
 	width: 64px;
-	border: solid #4B92B5 1px;
+	border: solid #7B7777 1px;
 	border-radius: 5px;
 	background-color: white;
 }
