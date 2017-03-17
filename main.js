@@ -4,7 +4,7 @@ $(document).ready(function(){
 		var itemString =""
 
 		for( i = 0 ; i < 24 ; i++ ){
-			itemString += `<div class="itemBox"><div class = "image" id="imageActual${i}"></div><div class ="imageLabel" id="imageLabelActual${i}"></div></div>`
+			itemString += `<div class="itemBox"><div class = "image" id="imageActual${i}"></div><div class ="imageLabel" id="imageLabelActual${i}"><span class ="title">TITLE</span><span class ="maker">MAKER</span><span class ="price">PRICE</span></div></div>`
 		}
 		$("#itemFence").html(itemString)
 		for( i = 0 ; i < 24 ; i++ ){

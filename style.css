@@ -232,6 +232,7 @@ select{
 	background-size: 100%;
 }
 .imageLabel{
+	font-size: 12px;
 	margin: 0;
 	height: 50px;
 	width: 100%;
@@ -239,7 +240,24 @@ select{
 	border: solid #CFCBC8 0px;
 	border-bottom: 1px;
 }
-
+.imageLabel span{
+	margin: 5px 8px 8px 15px;
+}
+.title{
+float:left;
+color: #444444;
+width: 100%;
+}
+.maker{
+float:left;
+color: #9A9A9A;
+margin-bottom: 12px;
+}
+.price{
+float:right;
+color: #78C042;
+margin-bottom: 12px;
+}
 
 
 
