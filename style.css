@@ -268,19 +268,25 @@ select{
 	color: #78C042;
 	margin-bottom: 20px;
 }
-.hoverbar{
+.hoverBar{
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 8px;
+	visibility: hidden;
 }
 .heart, .hamburger{
 	height: 25px;
 	width: 25px;
-	margin-right: 4px;
+	margin-right: 0px;
+	margin-left: 4px;
 	margin-top: 6px;
 	background-color: #FFFFFF;
 	border: solid #CFCBC8 1px;
 	border-radius: 3px;
 	padding: 4px;
+}
+.showMe{
+	visibility: visible;
 }
 
 
