@@ -200,38 +200,28 @@ select{
 	width: 212px;
 	background-color: white;
 }
-#imageBlockHeader{
-	display: flex;
-	justify-content:space-between;
-	margin: 0;
-}
 #imageBlock{
 	color: #555855;
 	margin-top: 40px;
 	width: 100%;
 	padding-right: 40px;
 }
-.itemBox{
-	width: 264px;
-	height: 232px;
-	background-color: red;
-	float: left;
-	margin-top: 100px;
+#imageBlockHeader{
+	display: flex;
+	justify-content:space-between;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-.imageBox{
-	width:264px;
-	height:212px;
-	background-color: green;
-}
-#itemBox{
+#itemFence{
 	display: flex;
 	flex-wrap: wrap;
 }
-#itemBlock{
-	font-size: 22px;
-	color: red;
+.itemBox{
+	width: 264px;
+	height: 232px;
+	margin: 10px 14px 4px 0;
+	border: solid #CFCBC8 1px;
 }
-
 
 
 
