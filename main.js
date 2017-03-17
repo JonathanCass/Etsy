@@ -3,9 +3,10 @@ $(document).ready(function(){
 		var itemString =""
 
 		data.forEach(function(item){
-			itemString += `<div class="itemBox></div>`
+			itemString += `<div class="itemBox"></div>`
 
 		})
 		$("#itemBlock").html(itemString)
+		$("#itemBlock").html("ISTHISWORKINGATALL?")
 	})
 })

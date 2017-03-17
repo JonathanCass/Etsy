@@ -207,7 +207,7 @@ select{
 }
 #imageBlock{
 	color: #555855;
-	margin-top: 30px;
+	margin-top: 40px;
 	width: 100%;
 	padding-right: 40px;
 }
@@ -226,6 +226,10 @@ select{
 #itemBox{
 	display: flex;
 	flex-wrap: wrap;
+}
+#itemBlock{
+	font-size: 22px;
+	color: red;
 }
 
 
