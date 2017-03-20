@@ -138,6 +138,9 @@ a:hover, #searchButtonLink:hover, #headerRight span:hover, #categories span:hove
 	color: #444444;
 	text-decoration: underline;	
 }
+#headerButton:hover{
+	background-color: #34A8C4;
+}
 a:visited{
 	color: #444444;;
 }
