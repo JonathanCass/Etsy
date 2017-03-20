@@ -133,9 +133,10 @@ li{
 	margin: 8px;
 	font-weight: normal;
 }
-a:hover{
+a:hover, #searchButtonLink:hover, #headerRight span:hover, #categories span:hover{
+	cursor: pointer;
 	color: #444444;
-	text-decoration: underline;
+	text-decoration: underline;	
 }
 a:visited{
 	color: #444444;;
