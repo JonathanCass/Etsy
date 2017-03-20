@@ -8,7 +8,7 @@ html {
 }
 #header{
 	height: 80px;
-	border: solid #E1E3DF 1px;
+	
 	background-color: white;
 }
 #headerLeft{
@@ -19,7 +19,7 @@ html {
 	height: 80px;
 }
 #headerRight{
-	display:flex;
+	display: flex;
 	justify-content: flex-end;
 	float: right;
 	height: 80px;
@@ -93,8 +93,12 @@ html {
 	color: #777777;
 	border: solid #E1E3DF 1px;
 	height: 44px;
+	width: 1600px;
 	background-color: white;
 	padding-top: 10px;
+	white-space: nowrap; 
+	overflow: scroll; 
+	text-overflow: ellipsis;
 }
 #categories span{
 	margin-left: 28px;
