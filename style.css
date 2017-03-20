@@ -151,6 +151,11 @@ a{
 #locEnter{
 	height:38px;
 	width: 38px;
+	background-color: white;
+	border: solid 1px #CCCCCC;
+	background-image: url("assets/greyArrow.png");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 input[type=radio], input[type=checkbox]{
 	margin-right: 8px;
